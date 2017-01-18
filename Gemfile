@@ -10,12 +10,14 @@ gem 'rails', '5.0.1'
 gem 'redis'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'jquery-rails'
+gem 'materialize-sass'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
+
+gem 'taric'
 
 group :development, :test do
   gem 'better_errors'

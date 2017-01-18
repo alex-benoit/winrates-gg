@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src:font-url('proxima/Proxima-Nova-Regular.eot');
+  src:font-url('proxima/Proxima-Nova-Regular.eot?#iefix') format('embedded-opentype'),
+      font-url('proxima/Proxima-Nova-Regular.woff') format('woff'),
+      font-url('proxima/Proxima-Nova-Regular.woff2') format('woff2'),
+      font-url('proxima/Proxima-Nova-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src:font-url('proxima/Proxima-Nova-Bold.eot');
+  src:font-url('proxima/Proxima-Nova-Bold.eot?#iefix') format('embedded-opentype'),
+      font-url('proxima/Proxima-Nova-Bold.woff') format('woff'),
+      font-url('proxima/Proxima-Nova-Bold.woff2') format('woff2'),
+      font-url('proxima/Proxima-Nova-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: $base-font;
+  color: $font-color;
+  background-color: $body-background-color;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font;
+    color: $header-color;
+    margin-bottom: 1.3rem;
+    font-weight: 700;
+  }
+}
+
+
